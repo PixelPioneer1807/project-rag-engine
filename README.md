@@ -22,7 +22,7 @@ The system is composed of five containerized services orchestrated by Docker Com
 | **Task Queue** | **Celery** with **Redis** Broker | The industry standard for asynchronous task processing in Python. Decouples heavy tasks from the API, ensuring immediate user feedback. |
 | **Metadata Store** | **PostgreSQL** | A robust, scalable, and reliable relational database perfect for storing structured job metadata (status, URL, timestamps). |
 | **Vector Database** | **ChromaDB** | A modern, open-source vector database that simplifies the storage and retrieval of embeddings for efficient semantic search. |
-| **LLM** | **Groq API** (llama3-8b-8192) | Provides extremely fast inference speeds, which is critical for a responsive and scalable query API. |
+| **LLM** | **Groq API** (llama3-8b-instant) | Provides extremely fast inference speeds, which is critical for a responsive and scalable query API. |
 | **Orchestration** | **Docker & Docker Compose** | Ensures a consistent, reproducible, and isolated development and deployment environment. Simplifies the management of all microservices. |
 | **Embedding Model** | all-MiniLM-L6-v2 | A lightweight but powerful sentence-transformer model that runs locally, providing fast and effective embeddings without external API calls. |
 
