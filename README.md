@@ -1,4 +1,4 @@
-# Scalable Web-Aware RAG Engine - AiRA Technical Challenge
+# Scalable Web-Aware RAG Engine
 
 This project is a scalable, asynchronous, and memory-driven system designed to ingest web content and answer questions based on the ingested knowledge. It demonstrates a robust microservices architecture using a message queue for background processing, a vector database for semantic search, and a metadata store for job tracking.
 
