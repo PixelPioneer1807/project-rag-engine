@@ -65,7 +65,12 @@ The API is fully documented using OpenAPI, and the interactive Swagger UI is ava
 - **Request Body:**
 ```json
 {
-    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence"
+    "url": "https://en.wikipedia.org/wiki/2019_Cricket_World_Cup"
+}
+```
+```json
+{
+    "url": "https://en.wikipedia.org/wiki/2023_Cricket_World_Cup"
 }
 ```
 
@@ -96,7 +101,13 @@ curl -X 'POST' \
 - **Request Body:**
 ```json
 {
-    "query": "What are some applications of LLMs?"
+  "query": "In which world cup Kane williamson was player of the tournament?"
+}
+```
+
+```json
+{
+    "query": "In which world cup did India reach finals?"
 }
 ```
 
@@ -163,4 +174,4 @@ cd project-rag-engine
 
 ## Demo Video
 
-*[A link to your 5-10 minute demo video will go here. I recommend uploading it to a service like Loom or as an Unlisted YouTube video.]*
+![Demo Video](./assignment_video.mp4)
