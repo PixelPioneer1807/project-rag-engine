@@ -1,4 +1,4 @@
-# Scalable Web-Aware RAG Engine - AiRA Technical Challenge
+# Scalable Web-Aware RAG Engine
 
 This project is a scalable, asynchronous, and memory-driven system designed to ingest web content and answer questions based on the ingested knowledge. It demonstrates a robust microservices architecture using a message queue for background processing, a vector database for semantic search, and a metadata store for job tracking.
 
@@ -22,7 +22,7 @@ The system is composed of five containerized services orchestrated by Docker Com
 | **Task Queue** | **Celery** with **Redis** Broker | The industry standard for asynchronous task processing in Python. Decouples heavy tasks from the API, ensuring immediate user feedback. |
 | **Metadata Store** | **PostgreSQL** | A robust, scalable, and reliable relational database perfect for storing structured job metadata (status, URL, timestamps). |
 | **Vector Database** | **ChromaDB** | A modern, open-source vector database that simplifies the storage and retrieval of embeddings for efficient semantic search. |
-| **LLM** | **Groq API** (llama3-8b-8192) | Provides extremely fast inference speeds, which is critical for a responsive and scalable query API. |
+| **LLM** | **Groq API** (llama3-8b-instant) | Provides extremely fast inference speeds, which is critical for a responsive and scalable query API. |
 | **Orchestration** | **Docker & Docker Compose** | Ensures a consistent, reproducible, and isolated development and deployment environment. Simplifies the management of all microservices. |
 | **Embedding Model** | all-MiniLM-L6-v2 | A lightweight but powerful sentence-transformer model that runs locally, providing fast and effective embeddings without external API calls. |
 
@@ -174,4 +174,8 @@ cd project-rag-engine
 
 ## Demo Video
 
+<<<<<<< HEAD
 ![Demo Video](./assignment_video.mp4)
+=======
+*[A link to your 5-10 minute demo video will go here. I recommend uploading it to a service like Loom or as an Unlisted YouTube video.]*
+>>>>>>> a1e6808bd348114b3728983655f6b495cd4463de
