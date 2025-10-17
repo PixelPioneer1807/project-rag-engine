@@ -172,10 +172,3 @@ cd project-rag-engine
    docker-compose down
    ```
 
-## Demo Video
-
-<<<<<<< HEAD
-![Demo Video](./assignment_video.mp4)
-=======
-*[A link to your 5-10 minute demo video will go here. I recommend uploading it to a service like Loom or as an Unlisted YouTube video.]*
->>>>>>> a1e6808bd348114b3728983655f6b495cd4463de
